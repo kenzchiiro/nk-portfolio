@@ -1,0 +1,44 @@
+{
+  "work": [
+    {
+      "time": "June 2021 - PRESENT",
+      "icon": "briefcase-fill",
+      "logo": "assets/iam.png",
+      "topic": "Full-Stack Developer",
+      "detail": "Work as part of a team developing applications and services",
+      "text": ["I AM Consulting Co., Ltd."]
+    },
+    {
+      "time": "June 2020 - May 2021",
+      "icon": "briefcase-fill",
+      "logo": "assets/kbtg.png",
+      "topic": "Data Engineer",
+      "detail": "Work as part of a ETL team developing data pipline for bigdata environment (Hadoop)",
+      "text": ["KASIKORN Business-Technology Group [KBTG]"]
+    },
+    {
+      "time": "Otc 2019 - May 2020",
+      "icon": "briefcase-fill",
+      "logo": "assets/donuts.png",
+      "topic": "Back-End Developer",
+      "detail": "Part-time Developer with Golang",
+      "text": ["Donuts  Bangkok"]
+    },
+    {
+      "time": "Oct 2018 - Apr 2020",
+      "icon": "briefcase-fill",
+      "logo": "assets/kmutt.png",
+      "topic": "Full-Stack Developer",
+      "detail": "Wage Scholarship",
+      "text": ["Institude of Field roBOtics (FIBO) at KMUTT"]
+    },
+    {
+      "time": "Jun 2019 - Jul 2019 ",
+      "icon": "fas fa-briefcase",
+      "logo": "assets/kbtg.png",
+      "topic": "Blockchain Developer",
+      "detail": "KBTG Internship Bootcamp 2019",
+      "text": ["KASIKORN Business-Technology Group [KBTG]"]
+    }
+  ]
+}

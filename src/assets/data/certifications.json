@@ -1,0 +1,36 @@
+{
+    "certifications": [
+      {
+        "time": "2021",
+        "icon": "award-fill",
+        "topic": "REST API (Intermediate) Certificate",
+        "detail": "HackerRank",
+        "name": "635FAF9E4D9C",
+        "link": "https://www.hackerrank.com/certificates/635faf9e4d9c"
+      },
+      {
+        "time": "2021",
+        "icon": "award-fill",
+        "topic": "Python (Basic) Certificate",
+        "detail": "HackerRank",
+        "name": "58E024A7C9DB",
+        "link": "https://www.hackerrank.com/certificates/58e024a7c9db"
+      },
+      {
+        "time": "2021",
+        "icon": "award-fill",
+        "topic": "Java (Basic) Certificate",
+        "detail": "HackerRank",
+        "name": "0B347686E65A",
+        "link": "https://www.hackerrank.com/certificates/0b347686e65a"
+      },
+      {
+        "time": "2021",
+        "icon": "award-fill",
+        "topic": "Java (Basic) Certificate",
+        "detail": "HackerRank",
+        "name": "D32AF385583A",
+        "link": "https://www.hackerrank.com/certificates/d32af385583a"
+      }
+  ]
+}

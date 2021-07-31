@@ -1,0 +1,66 @@
+{
+  "info": [
+    { "icon": "far fa-address-card", "text": "Nattawut Khuadplod" },
+    { "icon": "fas fa-at", "text": "nattawut.eleven@gmail.com" },
+    { "icon": "fas fa-gift", "text": "3 April 1997" },
+    { "icon": "fas fa-mobile-alt", "text": "+6697-116-6798" },
+    {
+      "icon": "fas fa-map-marked-alt",
+      "text": "7/678 Poppular Condo C9, Pak Kret district, Nonthaburi 11120, Thailand"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "skill": [
+        {
+          "label": "HTML / CSS + SASS / Bootstrap",
+          "value": 75,
+          "desc": "Use for work"
+        },
+        { "label": "Java Script", "value": 75, "desc": "Use for work" },
+        { "label": "VueJS", "value": 50, "desc": "Had learnt" },
+        { "label": "ReactJS", "value": 50, "desc": "Use during internship" },
+        { "label": "Angular", "value": 25, "desc": "Had learnt" },
+        { "label": "Python", "value": 70, "desc": "Use for some project" },
+        { "label": "Java", "value": 50, "desc": "Had learnt" },
+        { "label": "PHP", "value": 50, "desc": "Rarely used" },
+        { "label": "R", "value": 25, "desc": "Had learnt" },
+        { "label": "Go", "value": 60, "desc": "Use for work" },
+        { "label": "ETL", "value": 75, "desc": "Use for work" },
+        { "label": "Shell Script", "value": 75, "desc": "Use for work" },
+        { "label": "REST API", "value": 75, "desc": "Use for work" },
+        { "label": "SQL", "value": 75, "desc": "Use for work" }
+      ]
+    },
+    {
+      "name": "Design",
+      "skill": [
+        { "label": "Adobe illustrator", "value": 70, "desc": "Often used" },
+        { "label": "Adobe XD", "value": 50, "desc": "Often used" },
+        { "label": "Adobe Photoshop", "value": 50, "desc": "Rarely used" }
+      ]
+    },
+    {
+      "name": "Tools",
+      "skill": [
+        {
+          "label": "Stellar Blockchain",
+          "value": 70,
+          "desc": "Use during internship"
+        },
+        { "label": "Unity3D", "value": 70, "desc": "Use for game project" },
+        { "label": "Git", "value": 70, "desc": "Use for work" },
+        { "label": "Docker", "value": 70, "desc": "Use for some project" },
+        { "label": "Datastage", "value": 70, "desc": "Use for work" }
+      ]
+    },
+    {
+      "name": "Languages",
+      "skill": [
+        { "label": "Thai", "value": 100, "desc": "Native" },
+        { "label": "English", "value": 50, "desc": "TETET 3.5/7" }
+      ]
+    }
+  ]
+}

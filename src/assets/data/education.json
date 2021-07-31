@@ -1,0 +1,22 @@
+{
+  "education": [
+    {
+      "time": "2015 - Present",
+      "icon": "map-fill",
+      "topic": "King Mongkut's University of Technology Thonburi",
+      "detail": "Bangkok, Thailand",
+      "text": [
+        "Bachelor of Engineering Program in Computer Engineering"
+      ]
+    },
+    {
+      "time": "2013-2015",
+      "icon": "map-fill",
+      "topic": "Papayom pittayakom school",
+      "detail": "Phatthalung, Thailand",
+      "text": [
+        "Science Classroom in University-Affiliated School Project (SCiUS) - TSU"
+      ]
+    }
+  ]
+}

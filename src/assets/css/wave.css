@@ -1,0 +1,210 @@
+@import url(//fonts.googleapis.com/css?family=Pattaya:300:400);
+
+body {
+  margin:0;
+}
+
+h1 {
+  font-family: 'Pattaya', sans-serif;
+  font-weight:300;
+  letter-spacing: 2px;
+  font-size:48px;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  /* font-size:14px; */
+  color: #333333;
+}
+
+.header {
+  position:relative;
+  text-align:center;
+  background: linear-gradient(60deg, rgb(84,180, 255)0%, rgb(0, 255, 204) 100%);
+  color:white;
+}
+
+
+.logo {
+  width:80%;
+  height:auto;
+  fill:white;
+  padding-right:3rem;
+  padding-right:15px;
+  display:inline-block;
+  vertical-align: middle;
+}
+
+.inner-header {
+  height:85vh;
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+
+.flex { /*Flexbox for containers*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.waves {
+  position:relative;
+  width: 100%;
+  height:1vh;
+  margin-bottom:-7px; /*Fix for safari gap*/
+  min-height:100px;
+  max-height:150px;
+}
+
+.content {
+  position:relative;
+  height:20vh;
+  text-align:center;
+  background-color: white;
+}
+
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+
+.content {
+  text-align: left;
+  padding: 3rem 0rem 0rem 0rem;
+  height: 100%;
+}
+
+@media (max-width: 1024px) {
+  .waves {
+    height:40px;
+    min-height:40px;
+  }
+
+  .badge{
+    font-size:14px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+
+  h1 {
+    font-size:44px;
+  }
+
+  h2 {
+    font-size:28px;
+  }
+
+  h6 {
+    font-size:15px;
+  }
+  
+  p {
+    font-size:17.5px;
+  }
+
+  span {
+    font-size:15px;
+  }
+
+  .TimelineBox-detail {
+    font-size:12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .waves {
+    height:40px;
+    min-height:40px;
+  }
+
+  .badge{
+    font-size:14px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+
+  h1 {
+    font-size:44px;
+  }
+
+  h2 {
+    font-size:28px;
+  }
+
+  h6 {
+    font-size:15px;
+  }
+  
+  p {
+    font-size:17.5px;
+  }
+
+  span {
+    font-size:15px;
+  }
+
+  .TimelineBox-detail {
+    font-size:12px;
+  }
+}
+
+
+@media (max-width: 378px) {
+  .waves {
+    height:40px;
+    min-height:40px;
+  }
+
+  .badge{
+    font-size:10px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  h2 {
+    font-size:20px;
+  }
+  span {
+    font-size:10px;
+  }
+  
+
+  h6 {
+    font-size:12px;
+  }
+  p {
+    font-size:12.5px;
+  }
+  .TimelineBox-detail {
+    font-size:12px;
+  }
+}
