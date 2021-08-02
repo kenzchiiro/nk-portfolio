@@ -23,9 +23,8 @@ git push -f https://github.com/kenzch1r0/kenzch1r0.github.io main
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
 cd .. 
-git init
 git add -A
 git commit -m 'update code'
-git push -f https://github.com/kenzch1r0/NKportfolio main
-
+#git push -f https://github.com/kenzch1r0/NKportfolio main
+git push 
 cd -
