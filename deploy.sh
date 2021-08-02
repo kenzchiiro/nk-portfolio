@@ -13,11 +13,14 @@ cd dist
 # echo 'www.example.com' > CNAME
 
 git init
+git remote add origin/gh-pages git@github.com:kenzch1r0/kenzch1r0.github.io.git
+git fetch
+git checkout gh-pages
 git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
-git push -f git@github.com:kenzch1r0/kenzch1r0.github.io.git main:gh-pages
+git push
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
