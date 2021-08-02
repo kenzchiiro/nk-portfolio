@@ -13,7 +13,7 @@
       <b-row>
         <b-col>
             <p>
-              A JUNIOR DEVELOPER<br />IN LOVE WITH
+              A SOFTWARE CONSULTANT<br />IN LOVE WITH
               CODING AND DESIGN
             </p>
         </b-col>
