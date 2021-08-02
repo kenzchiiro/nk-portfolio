@@ -8,7 +8,7 @@
         <b-avatar  :src="profile" size="12rem" variant="light" class="p-2" ></b-avatar>
       </div>
       <b-row >
-        <b-col class="title" ><h1>KEN NATTAWUT<br></h1></b-col>
+        <b-col class="title" ><h1><bold>KEN NATTAWUT<br></bold></h1></b-col>
       </b-row>
       <b-row>
         <b-col>
@@ -92,7 +92,7 @@ export default {
 
 
 .tag{
-  margin: 0.25rem;
+  margin: 0.4rem;
   opacity: .75;
 }
 
@@ -100,5 +100,6 @@ export default {
 .title > h1{ 
   color: #2c3e50;
   margin: 1rem;
+  font-weight: 500;
 }
 </style>

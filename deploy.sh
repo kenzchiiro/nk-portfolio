@@ -26,6 +26,6 @@ cd ..
 git init
 git add -A
 git commit -m 'update code'
-git push -f https://github.com/kenzch1r0/NKportfolio master
+git push -f https://github.com/kenzch1r0/NKportfolio main
 
 cd -
