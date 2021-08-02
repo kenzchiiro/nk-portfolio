@@ -4,24 +4,22 @@
         <h2>WORK EXPERIENCE</h2>
       </div>
       <div class="spacing">
-        <TimelineIcon title="WORK" :data="work"  ref="Timeline_Icon"></TimelineIcon>
-			</div>
-	</section>
-
+          <card  title="EDUCATION" :data="work" ref="Timeline"></card>
+      </div>
+  </section>
 </template>
-
 <script>
-import TimelineIcon from '@/components/TimelineIcon'
+import Card from '@/components/Card'
 import { work } from '@/assets/data/work.json'
 
 export default {
-  name: 'Work',
+  name: 'Education',
   components: {
-  TimelineIcon
+    Card
   },
   data() {
     return {
-      work,
+      work
     }
   }
 }
@@ -30,6 +28,11 @@ export default {
 <style>
 .topic{
 margin-left: 2rem;
+padding: 0.25rem;
+}
+
+.content{
+  padding-top: 6rem;
 }
 
 .spacing{

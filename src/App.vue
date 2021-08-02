@@ -3,8 +3,8 @@
         <Intro />
     <b-container>
       <div class="content">
-        <Education />
         <Work />
+        <Education />
         <Projects />
         <Certifications />
       </div> 
@@ -39,7 +39,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  overflow-x: hidden; 
+  /* overflow-x: hidden;  */
 }
 b-container{
     padding: 1rem 0rem 0rem 0rem;

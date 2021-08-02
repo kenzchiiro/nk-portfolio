@@ -21,7 +21,7 @@
                                 </a>
                     </div>
                   </div>
-                <p><span v-for="(line,l) in event.text" :key="l">{{line}}<br></span></p>
+                <p class ="line"><span v-for="(line,l) in event.text" :key="l">{{line}}<br></span></p>
             </div>
             </div>
             <br>
