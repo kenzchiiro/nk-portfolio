@@ -13,7 +13,7 @@ cd dist
 # echo 'www.example.com' > CNAME
 
 git init
-git remote add origin/gh-pages git@github.com:kenzch1r0/kenzch1r0.github.io.git
+git remote add origin git@github.com:kenzch1r0/kenzch1r0.github.io.git
 git fetch
 git checkout gh-pages
 git add -A
@@ -26,7 +26,6 @@ git push
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
 cd .. 
-git init
 git add -A
 git commit -m 'update code'
 git push -f https://github.com/kenzchiro/NKportfolio main
