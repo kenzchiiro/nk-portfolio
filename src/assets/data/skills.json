@@ -1,0 +1,58 @@
+{
+  "skills": [
+    {
+      "topic": "Main Experience",
+      "icon": "assets/iam.svg",
+      "skill": [
+        {
+        "title":"Front-end",
+        "list":["- Vue , React"]
+        },
+        {
+          "title":"Back-end",
+          "list":["- Go , NodeJs"]
+        },
+        {
+          "title":"Data Engineer",
+          "list":["- IBM DataStage, ETL process, SQL"]
+        }
+    ]
+    },
+    {
+      "topic": "Some Experience",
+      "icon": "assets/iam.svg",
+      "skill": [
+        {
+        "title":"",
+        "list":[" - Game development"]
+        },
+        {
+        "title":"",
+        "list":[" - UI UX and Graphic design"]
+        },
+        {
+          "title":"",
+          "list":[" - Machine learning"]
+        },
+        {
+          "title":"",
+          "list":[" - Blockchain technology"]
+        },
+        {
+          "title":"",
+          "list":[" - Agile, CI/CD"]
+        }
+    ]
+    },
+    {
+      "topic": "Interests",
+      "icon": "assets/iam.svg",
+      "skill": [
+        {
+        "title":"",
+        "list":["Photography , Technology , Cryptocurrency and Stock , Manga"]
+        }
+    ]
+    }
+  ]
+}

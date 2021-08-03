@@ -5,7 +5,7 @@
       "icon": "calendar2-event-fill",
       "topic": "DataRoom : Self-Service Analytics Platform",
       "detail": " Senoir Project",
-      "name": "",
+      "logo": "assets/HackerRank.png",
       "link": "",
       "text": [
         "Platform for help user to analysis data without coding developed by ReactJS , Flask and using pyspark for Big data process"
@@ -16,7 +16,7 @@
       "icon": "calendar2-event-fill",
       "topic": "Portfolio Online",
       "detail": " Self Learning",
-      "name": "github",
+      "logo": "assets/HackerRank.png",
       "link": "https://github.com/kenzchiro/NKportfolio",
       "text": ["Developed my portfolio website with Vue.js"]
     },
@@ -25,7 +25,7 @@
       "icon": "calendar2-event-fill",
       "topic": "Leave System Online",
       "detail": " Wage Scholarship",
-      "name": "",
+      "logo": "assets/HackerRank.png",
       "link": "",
       "text": [
         "Developed leave system website with PHP, Java Script, MySQL, and HTML/CSS/Bootstrap"
@@ -35,7 +35,7 @@
       "time": "2017",
       "icon": "calendar2-event-fill",
       "topic": "War of Dimension",
-      "name": "link",
+      "logo": "assets/HackerRank.png",
       "link": "https://nattawuteleven.wixsite.com/kenzchiro/projects",
       "detail": " National Software Contest : NSC2017",
       "text": [
@@ -47,7 +47,7 @@
       "icon": "calendar2-event-fill",
       "topic": "Travalokel",
       "detail": "Term project in Database Course",
-      "name": "",
+      "logo": "assets/HackerRank.png",
       "link": "",
       "text": [
         "Airlines booking website for dometic and international destinations with PHP, Java Script, MySQL, and HTML/CSS/Bootstrap"
@@ -58,7 +58,7 @@
       "icon": "calendar2-event-fill",
       "topic": "What Tony Eat ?",
       "detail": "Term project in Engineering exporation Course",
-      "name": "link",
+      "logo": "assets/HackerRank.png",
       "link": "https://nattawuteleven.wixsite.com/kenzchiro/projects",
       "text": [
         "This project an Android application to help user to making a decision for meal develop by Andriod Studio with Java Script and MySQL"
@@ -69,7 +69,7 @@
       "icon": "calendar2-event-fill",
       "topic": "Treasure Hunt Begin AR",
       "detail": "National Software Contest : NSC2016",
-      "name": "link",
+      "logo": "assets/HackerRank.png",
       "link": "https://nattawuteleven.wixsite.com/kenzchiro/projects",
       "text": [
         "Boardgame on smartphone using agumented reality technology develop by Unity3D with C# and Java Script"

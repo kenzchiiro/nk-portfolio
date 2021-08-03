@@ -1,7 +1,7 @@
 <template>
     <v-row dense>
     <v-col sm="12" md="6" cols="12" :class="'layer-' + layerClass" v-for="(event, e) in data" :key="e">
-      <v-card data-aos="fade-right" class="inline" min-height="100" min-width="350" outlined>
+      <v-card data-aos="fade-right" class="inline" height="110"  min-width="350" outlined>
         <v-list-item one-line>
           <v-list-item-content>
             <div class="head"><p><bold v-for="(line,l) in event.text" :key="l">{{line}}</bold></p> </div>

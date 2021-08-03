@@ -4,20 +4,20 @@
         <h2>PROJECTS</h2>
       </div>
       <div class="spacing">
-         <project title="PROJECTS" :data="projects" ref="Timeline"></project>
+         <timeline title="PROJECTS" :data="projects" ref="Timeline"></timeline>
 			</div>
 	</section>
 
 </template>
 
 <script>
-import Project from '@/components/Project'
+import Timeline from '@/components/Timeline'
 import { projects } from '@/assets/data/projects.json'
 
 export default {
   name: 'Projects',
   components: {
-  Project
+  Timeline
   },
   data() {
     return {

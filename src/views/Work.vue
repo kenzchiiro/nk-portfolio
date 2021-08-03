@@ -13,7 +13,7 @@ import Card from '@/components/Card'
 import { work } from '@/assets/data/work.json'
 
 export default {
-  name: 'Education',
+  name: 'Work',
   components: {
     Card
   },

@@ -3,8 +3,9 @@
         <Intro />
     <b-container>
       <div class="content">
+        <Skills />
         <Work />
-        <Education />
+        <!-- <Education /> -->
         <Projects />
         <Certifications />
       </div> 
@@ -14,7 +15,8 @@
 
 <script>
 import Intro from "./views/Intro.vue";
-import Education from "./views/Education.vue";
+import Skills from "./views/Skills.vue";
+// import Education from "./views/Education.vue";
 import Work from "./views/Work.vue";
 import Projects from "./views/Projects.vue";
 import Certifications from "./views/Certifications.vue";
@@ -24,7 +26,8 @@ export default {
   name: "App",
   components: {
     Intro,
-    Education,
+    Skills,
+    // Education,
     Work,
     Projects,
     Certifications,

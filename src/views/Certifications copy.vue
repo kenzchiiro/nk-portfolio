@@ -4,7 +4,7 @@
           <h2>CERTIFICATIONS</h2>
       </div>
       <div class="spacing">
-          <certificate title="CERTOFICATIONS" :data="certifications" ref="Timeline"></certificate>
+          <timeline title="CERTOFICATIONS" :data="certifications" ref="Timeline"></timeline>
 			</div>
      <footer></footer>
 
@@ -13,13 +13,13 @@
 </template>
 
 <script>
-import Certificate from '@/components/Certificate'
+import Timeline from '@/components/Timeline'
 import { certifications } from '@/assets/data/certifications.json'
 
 export default {
   name: 'Certifications',
   components: {
-  Certificate
+  Timeline
   },
   data() {
     return {
