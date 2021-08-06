@@ -1,29 +1,43 @@
 {
   "projects": [
     {
-      "time": "2019",
+      "time": "2021",
       "icon": "calendar2-event-fill",
-      "topic": "DataRoom : Self-Service Analytics Platform",
-      "detail": " Senoir Project",
-      "logo": "assets/HackerRank.png",
-      "link": "https://www.hackerrank.com/certificates/0b347686e65a",
+      "topic": "Portfolio Online",
+      "detail": " Self Learning",
+      "git": "https://github.com/kenzch1r0/NKportfolio",
+      "link": "https://kenzch1r0.hithub.io",
+      "text": ["Developed my portfolio website"],
+      "skills": [
+        "VueJs", "HTML/CSS"
+      ]
+    },
+    {
+      "time": "2020",
+      "icon": "calendar2-event-fill",
+      "topic": "Covide Report",
+      "detail": " Self Learning",
+      "git": "https://github.com/kenzch1r0/covide-report",
+      "link": "",
       "text": [
-        "Platform for help user to analysis data without coding"
+        "Visualize daily covide report"
       ],
       "skills": [
-        "Flask","ReactJS","Pyspark","Hadoop"
+        "VueJs"
       ]
     },
     {
       "time": "2019",
       "icon": "calendar2-event-fill",
-      "topic": "Portfolio Online",
-      "detail": " Self Learning",
+      "topic": "DataRoom : Self-Service Analytics Platform",
+      "detail": " Senoir Project",
       "logo": "assets/HackerRank.png",
-      "link": "https://github.com/kenzchiro/NKportfolio",
-      "text": ["Developed my portfolio website"],
+      "link": "",
+      "text": [
+        "Platform for help user to analysis data without coding"
+      ],
       "skills": [
-        "VueJs", "HTML/CSS"
+        "Flask","ReactJS","Pyspark","Hadoop"
       ]
     },
     {

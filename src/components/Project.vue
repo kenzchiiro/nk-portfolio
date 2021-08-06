@@ -9,7 +9,11 @@
                 <i class="far fa-folder" style="font-size:40px; color:#768390;"></i>
             </v-col>
             <v-col cols="2">
-                <i class="fab fa-github" style="font-size:25px; color:#768390; float:right;"></i>
+              <div v-if="event.link != ''">
+              <a :href=event.link>
+                <i class="fas fa-external-link-alt" style="font-size:20px; color:#768390; float:right;"></i>
+              </a>
+              </div>
             </v-col>
             </v-list-item-content>
         </v-row>
