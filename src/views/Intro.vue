@@ -1,32 +1,38 @@
 <template>
+
   <div class="header">
+
     <!--Content before waves-->
     <div class="inner-header flex">
       <!--Just the logo.. Don't mind this-->
-    <b-container>
+    <v-container>
       <div class="mb-2" data-aos="zoom-in">
         <b-avatar  :src="profile" size="12rem" variant="light" class="p-2" ></b-avatar>
       </div>
-      <b-row >
+      <v-row >
         <b-col class="title" ><h1><bold>KEN NATTAWUT<br></bold></h1></b-col>
-      </b-row>
-      <b-row>
-        <b-col>
+      </v-row>
+      <v-row>
+        <v-col>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col>
             <p>
               A SOFTWARE CONSULTANT<br />IN LOVE WITH
               CODING AND DESIGN
             </p>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col>
-                <b-badge data-aos="zoom-out-up" data-aos-duration="2000" variant="light tag">#WEB</b-badge>
-                <b-badge data-aos="zoom-out-up" data-aos-duration="2400" variant="light tag">#DESIGN</b-badge>
-                <b-badge data-aos="zoom-out-up" data-aos-duration="2800" variant="light tag">#CODING</b-badge>
-                <b-badge data-aos="zoom-out-up" data-aos-duration="3000" variant="light tag">#TECHNOLOGY</b-badge>
-        </b-col>
-      </b-row>
-    </b-container>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col>
+            <v-chip class="tag" data-aos="zoom-out-up" data-aos-duration="2000"  >#WEB</v-chip>
+            <v-chip class="tag" data-aos="zoom-out-up" data-aos-duration="2400" >#DESIGN</v-chip>
+            <v-chip class="tag" data-aos="zoom-out-up" data-aos-duration="2800" >#CODING</v-chip>
+            <v-chip class="tag" data-aos="zoom-out-up" data-aos-duration="3000" >#TECHNOLOGY</v-chip>
+        </v-col>
+      </v-row>
+    </v-container>
 
     </div>
     <!--Waves Container-->
@@ -87,19 +93,27 @@ export default {
 };
 </script>
 
-<style scope>
+<style>
 @import "../assets/css/wave.css";
 
 
 .tag{
-  margin: 0.4rem;
-  opacity: .75;
+  margin: 0.3rem;
+  font-size: 10px !important;
+  font-weight: 900 !important;
+  background: white !important;
+  max-height: 25px !important; 
+  align-items: center !important;
 }
 
+.icon{
+font-size: 1rem;
+color: #2c3e50;
+margin: 0.5em;
+}
 
 .title > h1{ 
   color: #2c3e50;
-  margin: 1rem;
   font-weight: 500;
 }
 </style>

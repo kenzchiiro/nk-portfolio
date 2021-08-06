@@ -23,9 +23,9 @@ const opts = {
 
 export default new Vuetify(opts)
 new Vue({
+  vuetify: new Vuetify(),
   created () {
     AOS.init()
   },
   render: h => h(App),
 }).$mount('#app')
-

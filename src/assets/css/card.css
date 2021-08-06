@@ -5,7 +5,21 @@
 
 .code {
   color: grey;
-  font-size:1px;
+  font-size:10px !important;
 }
 
-  
+.content-text {
+  height: 7rem;
+}
+
+.tag{
+  opacity: .8 !important;;
+  margin: 0.3rem;
+  font-size: 10px !important;
+  font-weight: 900 !important;
+  color: #000;
+  background: white !important;
+  max-height: 25px !important; 
+  align-items: center !important;
+}
+

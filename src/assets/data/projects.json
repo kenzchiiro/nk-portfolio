@@ -6,9 +6,12 @@
       "topic": "DataRoom : Self-Service Analytics Platform",
       "detail": " Senoir Project",
       "logo": "assets/HackerRank.png",
-      "link": "",
+      "link": "https://www.hackerrank.com/certificates/0b347686e65a",
       "text": [
-        "Platform for help user to analysis data without coding developed by ReactJS , Flask and using pyspark for Big data process"
+        "Platform for help user to analysis data without coding"
+      ],
+      "skills": [
+        "Flask","ReactJS","Pyspark","Hadoop"
       ]
     },
     {
@@ -18,7 +21,10 @@
       "detail": " Self Learning",
       "logo": "assets/HackerRank.png",
       "link": "https://github.com/kenzchiro/NKportfolio",
-      "text": ["Developed my portfolio website with Vue.js"]
+      "text": ["Developed my portfolio website"],
+      "skills": [
+        "VueJs", "HTML/CSS"
+      ]
     },
     {
       "time": "2018",
@@ -28,7 +34,10 @@
       "logo": "assets/HackerRank.png",
       "link": "",
       "text": [
-        "Developed leave system website with PHP, Java Script, MySQL, and HTML/CSS/Bootstrap"
+        "Developed leave system website"
+      ],
+      "skills": [
+        "PHP", "HTML/CSS", "Jquery", "JavaScript","MySQL"
       ]
     },
     {
@@ -39,7 +48,10 @@
       "link": "https://nattawuteleven.wixsite.com/kenzchiro/projects",
       "detail": " National Software Contest : NSC2017",
       "text": [
-        "A real time statgy game on smartphone develop by Unity3D with C# and Java Script"
+        "A real time statgy game on smartphone"
+      ],
+      "skills": [
+        "#C", "Unity3D"
       ]
     },
     {
@@ -50,18 +62,24 @@
       "logo": "assets/HackerRank.png",
       "link": "",
       "text": [
-        "Airlines booking website for dometic and international destinations with PHP, Java Script, MySQL, and HTML/CSS/Bootstrap"
+        "Airlines booking website for dometic and international destinations"
+      ],
+      "skills": [
+        "PHP", "HTML/CSS", "Jquery", "JavaScript"
       ]
     },
     {
       "time": "2016",
       "icon": "calendar2-event-fill",
       "topic": "What Tony Eat ?",
-      "detail": "Term project in Engineering exporation Course",
+      "detail": "Term project in Engineering Course",
       "logo": "assets/HackerRank.png",
       "link": "https://nattawuteleven.wixsite.com/kenzchiro/projects",
       "text": [
-        "This project an Android application to help user to making a decision for meal develop by Andriod Studio with Java Script and MySQL"
+        "This project an Android application to help user to making a decision for meal"
+      ],
+      "skills": [
+        "Java","MySQL"
       ]
     },
     {
@@ -72,7 +90,10 @@
       "logo": "assets/HackerRank.png",
       "link": "https://nattawuteleven.wixsite.com/kenzchiro/projects",
       "text": [
-        "Boardgame on smartphone using agumented reality technology develop by Unity3D with C# and Java Script"
+        "Boardgame on smartphone using agumented reality technologyt"
+      ],
+      "skills": [
+        "#C", "Unity3D","Vuforia"
       ]
     }
   ]

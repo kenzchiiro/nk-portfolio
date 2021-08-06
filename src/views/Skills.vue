@@ -1,7 +1,7 @@
 <template>
   <section class="content">
 			<div class="topic" data-aos="fade-right">
-        <h2>SKILLS</h2>
+        <h2>ABOUT ME</h2>
       </div>
       <div class="spacing">
           <skill  title="SKILLS" :data="skills" ref="Skill"></skill>
@@ -29,6 +29,7 @@ export default {
 .topic{
 margin-left: 2rem;
 padding: 0.25rem;
+font-weight: 900 !important;
 }
 
 .content{

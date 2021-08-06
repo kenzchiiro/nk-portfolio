@@ -3,33 +3,33 @@
       {
         "time": "2021",
         "icon": "assets/HackerRank.png",
-        "topic": "REST API",
+        "topic": " REST API   ",
         "level": "Intermediate",
-        "name": "HackerRank",
+        "id": "  ID: 0B347686E65A ",
         "link": "https://www.hackerrank.com/certificates/635faf9e4d9c"
       },
       {
         "time": "2021",
         "icon": "assets/HackerRank.png",
-        "topic": "Python",
+        "topic": " Python",
         "level": "Basic",
-        "name": "HackerRank",
+        "id": "  ID: 58E024A7C9DB ",
         "link": "https://www.hackerrank.com/certificates/58e024a7c9db"
       },
       {
         "time": "2021",
         "icon": "assets/HackerRank.png",
-        "topic": "Java",
+        "topic": " Java",
         "level": "Basic",
-        "name": "HackerRank",
+        "id": " ID: 0B347686E65A",
         "link": "https://www.hackerrank.com/certificates/0b347686e65a"
       },
       {
         "time": "2021",
         "icon": "assets/HackerRank.png",
-        "topic": "JavaScript",
+        "topic": " JavaScript",
         "level": "Basic",
-        "name": "HackerRank",
+        "id": "  ID: D32AF385583A",
         "link": "https://www.hackerrank.com/certificates/d32af385583a"
       }
   ]

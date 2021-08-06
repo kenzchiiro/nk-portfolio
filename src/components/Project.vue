@@ -1,8 +1,8 @@
 <template>
     <v-row dense>
     <v-col xs="6" lg="4" cols="12" :class="'layer-' + layerClass" v-for="(event, e) in data" :key="e">
-      <v-card data-aos="fade-right" class="inline" min-height="312" min-width="300" outlined>
-        <v-list-item one-line>
+      <v-card  data-aos="fade-up" :data-aos-duration="(e+2)*200" class="mx-auto" min-height="300" min-width="200" outlined>
+        <v-list-item three-line>
         <v-row dense>
             <v-list-item-content>
             <v-col cols="10">
@@ -14,30 +14,17 @@
             </v-list-item-content>
         </v-row>
         </v-list-item>
-        <v-list-item one-line>
-        <v-row dense>
-            <v-col cols="12">
-            <v-list-item-content>
+        <v-card-text>
+            <div>{{event.time}}</div>
+            <v-list-item-content class="content-text">
             <div class="title"><p><bold v-for="(line,l) in event.topic" :key="l">{{line}}</bold></p> </div>
-            <v-list-item-title class="level">{{event.detail}}</v-list-item-title>
+            <v-list-item-title>{{event.detail}}</v-list-item-title>
             <p class ="line"><span v-for="(line,l) in event.text" :key="l">{{line}}<br></span></p>
             </v-list-item-content>
-            </v-col>
-        </v-row>
-         </v-list-item>
-        <v-list-item one-line>
-            <v-row dense>
-                <v-col cols="4">
-                    <b-badge data-aos="zoom-out-up" data-aos-duration="2000" variant="light tag">#WEB</b-badge>
-                </v-col>
-            </v-row>
-        </v-list-item>
-          <!-- <v-list-item-content>
-            <div class="head"><p><bold v-for="(line,l) in event.topic" :key="l">{{line}}</bold></p> </div>
-            <v-list-item-title class="headline mb-1">{{event.topic}}</v-list-item-title>
-            <v-list-item-subtitle>{{event.time}}</v-list-item-subtitle>
-          </v-list-item-content> -->
-          <!-- <v-list-item-avatar tile size="85" :src="pathLogo(event.logo)"><v-img :src="pathLogo(event.logo)"></v-img></v-list-item-avatar> -->
+         </v-card-text>
+      <v-card-actions>
+        <v-chip class="tag" v-for="(skill,s) in event.skills" :key="s" outlined>{{skill}}</v-chip>
+      </v-card-actions>
       </v-card>
     </v-col>
     </v-row>

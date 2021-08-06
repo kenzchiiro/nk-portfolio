@@ -1,8 +1,9 @@
 {
   "skills": [
     {
+      "col":6,
       "topic": "Main Experience",
-      "icon": "assets/iam.svg",
+      "icon": "",
       "skill": [
         {
         "title":"Front-end",
@@ -19,8 +20,9 @@
     ]
     },
     {
+      "col":6,
       "topic": "Some Experience",
-      "icon": "assets/iam.svg",
+      "icon": "",
       "skill": [
         {
         "title":"",
@@ -45,8 +47,26 @@
     ]
     },
     {
+      "col":12,
+      "topic": "Education",
+      "icon": "",
+      "skill": [
+        {
+        "year":"2016 - 2019",
+        "title":"King Mongkut's University of Technology Thonburi",
+        "list":["Bachelor of Engineering Program in Computer Engineering"]
+        },
+        {
+          "year":"2013 - 2015",
+          "title":"Papayom pittayakom school",
+          "list":["Science Classroom in University-Affiliated School Project (SCiUS) - TSU"]
+        }
+    ]
+    },
+    {
+      "col":12,
       "topic": "Interests",
-      "icon": "assets/iam.svg",
+      "icon": "",
       "skill": [
         {
         "title":"",
