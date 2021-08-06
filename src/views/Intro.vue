@@ -26,7 +26,7 @@
       </v-row>
       <v-row>
         <v-col>
-            <v-chip class="tag" data-aos="zoom-out-up" data-aos-duration="2000"  >#WEB</v-chip>
+            <v-chip class="tag" data-aos="zoom-out-up" data-aos-duration="2000" >#WEB</v-chip>
             <v-chip class="tag" data-aos="zoom-out-up" data-aos-duration="2400" >#DESIGN</v-chip>
             <v-chip class="tag" data-aos="zoom-out-up" data-aos-duration="2800" >#CODING</v-chip>
             <v-chip class="tag" data-aos="zoom-out-up" data-aos-duration="3000" >#TECHNOLOGY</v-chip>
@@ -93,17 +93,15 @@ export default {
 };
 </script>
 
-<style>
+<style scope>
 @import "../assets/css/wave.css";
 
 
 .tag{
-  margin: 0.3rem;
-  font-size: 10px !important;
+  margin: 0.3rem !important;;
+  font-size: 0.55rem !important;
   font-weight: 900 !important;
-  background: white !important;
-  max-height: 25px !important; 
-  align-items: center !important;
+  max-height: 1.3rem !important; 
 }
 
 .icon{
