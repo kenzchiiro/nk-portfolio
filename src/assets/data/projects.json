@@ -6,6 +6,7 @@
       "topic": "AXIE finder",
       "detail": " Self Learning",
       "git": "https://github.com/kenzch1r0/axie-finder",
+      "link": "",
       "text": ["Bot for search axie in marketplace and filtering by LINE command"],
       "skills": [
         "Go", "GraphQL", "Line-Bot-SDKs"
