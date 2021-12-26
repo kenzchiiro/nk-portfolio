@@ -5,6 +5,7 @@
       "icon": "calendar2-event-fill",
       "topic": "AXIE finder",
       "detail": " Self Learning",
+      "tooltip": "view repository",
       "git": "https://github.com/kenzch1r0/axie-finder",
       "link": "",
       "text": ["Bot for search axie in marketplace and filtering by LINE command"],
@@ -17,6 +18,7 @@
       "icon": "calendar2-event-fill",
       "topic": "Portfolio Online",
       "detail": " Self Learning",
+      "tooltip": "view repository",
       "git": "https://github.com/kenzch1r0/NKportfolio",
       "link": "https://kenzch1r0.github.io",
       "text": ["Developed my portfolio website"],
@@ -29,6 +31,7 @@
       "icon": "calendar2-event-fill",
       "topic": "Covide Report",
       "detail": " Self Learning",
+      "tooltip": "view repository",
       "git": "https://github.com/kenzch1r0/covide-report",
       "link": "",
       "text": [
@@ -41,6 +44,7 @@
     {
       "time": "2019",
       "icon": "calendar2-event-fill",
+      "tooltip": "private repository",
       "topic": "DataRoom : Self-Service Analytics Platform",
       "detail": " Senoir Project",
       "logo": "assets/HackerRank.png",
@@ -58,6 +62,7 @@
       "topic": "Leave System Online",
       "detail": " Wage Scholarship",
       "logo": "assets/HackerRank.png",
+      "tooltip": "private repository",
       "link": "",
       "text": [
         "Developed leave system website"
@@ -67,10 +72,26 @@
       ]
     },
     {
+      "time": "2018",
+      "icon": "calendar2-event-fill",
+      "topic": "Chinese Philosophy abd Darksouls",
+      "detail": " Term Project of Chinese Philosophy",
+      "logo": "assets/HackerRank.png",
+      "tooltip": "private repository",
+      "link": "https://philosophydarksouls.wordpress.com/",
+      "text": [
+        "Presenting Chinese philosophy based on the game Darksouls in website format."
+      ],
+      "skills": [
+        "Wordpress"
+      ]
+    },
+    {
       "time": "2017",
       "icon": "calendar2-event-fill",
       "topic": "War of Dimension",
       "logo": "assets/HackerRank.png",
+      "tooltip": "private repository",
       "link": "https://nattawuteleven.wixsite.com/kenzchiro/projects",
       "detail": " National Software Contest : NSC2017",
       "text": [
@@ -85,6 +106,7 @@
       "icon": "calendar2-event-fill",
       "topic": "Travalokel",
       "detail": "Term project in Database Course",
+      "tooltip": "private repository",
       "logo": "assets/HackerRank.png",
       "link": "",
       "text": [
@@ -99,6 +121,7 @@
       "icon": "calendar2-event-fill",
       "topic": "What Tony Eat ?",
       "detail": "Term project in Engineering Course",
+      "tooltip": "private repository",
       "logo": "assets/HackerRank.png",
       "link": "https://nattawuteleven.wixsite.com/kenzchiro/projects",
       "text": [
@@ -112,6 +135,7 @@
       "time": "2016",
       "icon": "calendar2-event-fill",
       "topic": "Treasure Hunt Begin AR",
+      "tooltip": "private repository",
       "detail": "National Software Contest : NSC2016",
       "logo": "assets/HackerRank.png",
       "link": "https://nattawuteleven.wixsite.com/kenzchiro/projects",
