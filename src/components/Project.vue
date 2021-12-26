@@ -1,7 +1,7 @@
 <template>
     <v-row dense>
     <v-col xs="6" lg="4" cols="12" :class="'layer-' + layerClass" v-for="(event, e) in data" :key="e">
-      <v-card  data-aos="fade-up" :data-aos-duration="(e+2)*200" class="mx-auto" min-height="300" min-width="200" outlined>
+      <v-card  data-aos="fade-up" :data-aos-duration="(e+2)*200" class="mx-auto"  outlined>
         <v-list-item three-line>
         <v-row dense>
             <v-list-item-content>
@@ -23,7 +23,7 @@
         <v-card-text>
             <div>{{event.time}}</div>
             <v-list-item-content class="content-text">
-            <div class="title"><p><bold v-for="(line,l) in event.topic" :key="l">{{line}}</bold></p> </div>
+            <div><p><bold v-for="(line,l) in event.topic" :key="l">{{line}}</bold></p> </div>
             <v-list-item-title>{{event.detail}}</v-list-item-title>
             <p class ="line"><span v-for="(line,l) in event.text" :key="l">{{line}}<br></span></p>
             </v-list-item-content>
