@@ -6,7 +6,9 @@
         <v-row dense>
             <v-list-item-content>
             <v-col cols="10">
+              <a :href=event.git>
                 <i class="far fa-folder" style="font-size:40px; color:#768390;"></i>
+              </a>
             </v-col>
             <v-col cols="2">
               <div v-if="event.link != ''">

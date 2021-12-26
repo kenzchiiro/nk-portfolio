@@ -3,10 +3,21 @@
     {
       "time": "2021",
       "icon": "calendar2-event-fill",
+      "topic": "AXIE finder",
+      "detail": " Self Learning",
+      "git": "https://github.com/kenzch1r0/axie-finder",
+      "text": ["Bot for search axie in marketplace and filtering by LINE command"],
+      "skills": [
+        "Go", "GraphQL", "Line-Bot-SDKs"
+      ]
+    },
+    {
+      "time": "2021",
+      "icon": "calendar2-event-fill",
       "topic": "Portfolio Online",
       "detail": " Self Learning",
       "git": "https://github.com/kenzch1r0/NKportfolio",
-      "link": "https://kenzch1r0.hithub.io",
+      "link": "https://kenzch1r0.github.io",
       "text": ["Developed my portfolio website"],
       "skills": [
         "VueJs", "HTML/CSS"
@@ -51,7 +62,7 @@
         "Developed leave system website"
       ],
       "skills": [
-        "PHP", "HTML/CSS", "Jquery", "JavaScript","MySQL"
+        "PHP", "HTML/CSS", "JavaScript","MySQL"
       ]
     },
     {
@@ -79,7 +90,7 @@
         "Airlines booking website for dometic and international destinations"
       ],
       "skills": [
-        "PHP", "HTML/CSS", "Jquery", "JavaScript"
+        "PHP", "HTML/CSS", "JavaScript"
       ]
     },
     {
