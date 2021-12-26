@@ -87,6 +87,21 @@
       ]
     },
     {
+      "time": "2018",
+      "icon": "calendar2-event-fill",
+      "topic": "Portfolio Online by Wix",
+      "detail": " Self Learning",
+      "logo": "assets/HackerRank.png",
+      "tooltip": "no source code",
+      "link": "https://nattawuteleven.wixsite.com/kenzchiro/",
+      "text": [
+        "Developed portfolio website with No-code platform"
+      ],
+      "skills": [
+        "Wix"
+      ]
+    },
+    {
       "time": "2017",
       "icon": "calendar2-event-fill",
       "topic": "War of Dimension",
