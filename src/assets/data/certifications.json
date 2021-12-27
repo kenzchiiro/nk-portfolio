@@ -3,6 +3,30 @@
       {
         "time": "2021",
         "icon": "assets/HackerRank.png",
+        "topic": " Go   ",
+        "level": "Basic",
+        "id": "  ID: 641EE48F3841 ",
+        "link": "https://www.hackerrank.com/certificates/641ee48f3841"
+      },
+      {
+        "time": "2021",
+        "icon": "assets/HackerRank.png",
+        "topic": " SQL   ",
+        "level": "Basic",
+        "id": "  ID: 08184AEF8E8B ",
+        "link": "https://www.hackerrank.com/certificates/08184aef8e8b"
+      },
+      {
+        "time": "2021",
+        "icon": "assets/HackerRank.png",
+        "topic": " SQL   ",
+        "level": "Intermediate",
+        "id": "  ID: 73D8A19F4271 ",
+        "link": "https://www.hackerrank.com/certificates/73d8a19f4271"
+      },
+      {
+        "time": "2021",
+        "icon": "assets/HackerRank.png",
         "topic": " REST API   ",
         "level": "Intermediate",
         "id": "  ID: 0B347686E65A ",
