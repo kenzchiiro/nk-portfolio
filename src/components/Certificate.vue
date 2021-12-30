@@ -1,6 +1,6 @@
 <template>
     <v-row dense>
-    <v-col sm="12" md="3" cols="6" :class="'layer-' + layerClass" v-for="(event, e) in data" :key="e">
+    <v-col sm="12" md="3" lg="3" cols="12" :class="'layer-' + layerClass" v-for="(event, e) in data" :key="e">
       <v-card data-aos="fade-up" :data-aos-duration="(e+2)*200"  class="inline" min-width="150" outlined>
         <v-row dense>
             <v-col cols="5">
