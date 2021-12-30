@@ -82,12 +82,11 @@
 
 <script>
 import profile from "../assets/me.jpg";
-
 export default {
   name: "Intro",
     data() {
     return {
-      profile
+      profile,
     };
   }
 };
