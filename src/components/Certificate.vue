@@ -5,6 +5,7 @@
         <v-row dense>
             <v-col cols="5">
             <v-img
+                style="border-top-left-radius: 3%; border-bottom-left-radius: 3%;"
                 height="100"
                 width="100"
                 :src="pathLogo(event.icon)"
