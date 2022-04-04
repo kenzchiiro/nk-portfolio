@@ -1,39 +1,50 @@
 <template>
-
-  <div class="header">
-
+  <div class="header" id="intro">
     <!--Content before waves-->
     <div class="inner-header flex">
       <!--Just the logo.. Don't mind this-->
-    <v-container>
-      <div class="mb-2" data-aos="zoom-in">
-        <b-avatar  :src="profile" size="12rem" variant="light" class="p-2" ></b-avatar>
-      </div>
-      <v-row >
-        <b-col class="title" ><h1><bold>KEN NATTAWUT<br></bold></h1></b-col>
-      </v-row>
-      <v-row>
-        <v-col>
-        </v-col>
-      </v-row>
-      <v-row>
-        <v-col>
-            <p>
-              A SOFTWARE CONSULTANT<br />IN LOVE WITH
-              CODING AND DESIGN
-            </p>
-        </v-col>
-      </v-row>
-      <v-row>
-        <v-col>
-            <v-chip class="tag" data-aos="zoom-out-up" data-aos-duration="2000" >#WEB</v-chip>
-            <v-chip class="tag" data-aos="zoom-out-up" data-aos-duration="2400" >#DESIGN</v-chip>
-            <v-chip class="tag" data-aos="zoom-out-up" data-aos-duration="2800" >#CODING</v-chip>
-            <v-chip class="tag" data-aos="zoom-out-up" data-aos-duration="3000" >#TECHNOLOGY</v-chip>
-        </v-col>
-      </v-row>
-    </v-container>
-
+      <v-container>
+        <div class="mb-2" data-aos="zoom-in">
+          <b-avatar
+            :src="profile"
+            size="12rem"
+            variant="light"
+            class="p-2"
+          ></b-avatar>
+        </div>
+        <v-row>
+          <b-col class="title">
+            <br>
+            <vue-typed-js class="title" :strings="['KEN', 'NATTAWUT KHUADPLOD']">
+              <h1 class="typing"></h1>
+            </vue-typed-js>
+          </b-col>
+        </v-row>
+        <v-row>
+          <v-col> </v-col>
+        </v-row>
+        <v-row>
+          <v-col>
+            <p>A SOFTWARE CONSULTANT<br />IN LOVE WITH CODING AND DESIGN</p>
+          </v-col>
+        </v-row>
+        <v-row>
+          <v-col>
+            <v-chip class="tag" data-aos="zoom-out-up" data-aos-duration="2000"
+              >#WEB</v-chip
+            >
+            <v-chip class="tag" data-aos="zoom-out-up" data-aos-duration="2400"
+              >#DESIGN</v-chip
+            >
+            <v-chip class="tag" data-aos="zoom-out-up" data-aos-duration="2800"
+              >#CODING</v-chip
+            >
+            <v-chip class="tag" data-aos="zoom-out-up" data-aos-duration="3000"
+              >#TECHNOLOGY</v-chip
+            >
+          </v-col>
+        </v-row>
+      </v-container>
     </div>
     <!--Waves Container-->
     <div>
@@ -82,35 +93,44 @@
 
 <script>
 import profile from "../assets/me.jpg";
+import NavBar from "../components/NavBar.vue";
+
 export default {
   name: "Intro",
-    data() {
+  data() {
     return {
       profile,
+      NavBar,
     };
-  }
+  },
 };
 </script>
 
 <style scope>
 @import "../assets/css/wave.css";
 
-
-.tag{
-  margin: 0.3rem !important;;
+.tag {
+  margin: 0.3rem !important;
   font-size: 0.55rem !important;
   font-weight: 900 !important;
-  max-height: 1.3rem !important; 
+  max-height: 1.3rem !important;
 }
 
-.icon{
-font-size: 1rem;
-color: #2c3e50;
-margin: 0.5em;
+.icon {
+  font-size: 1rem;
+  color: #2c3e50;
+  margin: 0.5em;
 }
 
-.title > h1{ 
+.typed-element {
+  justify-content: center !important;
+  color: #2c3e50;
+  font-weight: inherit;
+}
+
+.title > h1 {
   color: #2c3e50;
   font-weight: 500;
+  font-size: 2rem;
 }
 </style>

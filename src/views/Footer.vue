@@ -3,6 +3,7 @@
     <v-row justify="center" no-gutters>
       <v-col class="primary lighten-2 py-4 text-center white--text" cols="12">
         <strong>Contact</strong><br />
+        <strong>Nattawut Khuadplod</strong><br />
         <strong>natawut.eleven@gmail.com</strong><br />
         <a class="icon" href="https://www.instagram.com/nk_nattawut/"
           ><i class="fab fa-instagram-square"></i

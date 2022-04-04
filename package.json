@@ -17,7 +17,9 @@
     "vue": "^2.6.11",
     "vue-aos": "^2.1.0",
     "vue-responsive": "^1.1.0",
-    "vuetify": "^2.5.8"
+    "vue-typed-js": "^0.1.2",
+    "vuetify": "^2.5.8",
+    "vuetify-nav": "^1.2.1"
   },
   "devDependencies": {
     "@babel/polyfill": "^7.11.5",

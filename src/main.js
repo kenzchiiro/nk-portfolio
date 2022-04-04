@@ -10,7 +10,9 @@ import responsive from 'vue-responsive'
 import 'vuetify/dist/vuetify.min.css'
 import Vuetify from 'vuetify'
 import '@fortawesome/fontawesome-free/css/all.css' // Ensure you are using css-loader
+import VueTypedJs from 'vue-typed-js'
 
+Vue.use(VueTypedJs)
 Vue.use(responsive)
 Vue.config.productionTip = false
 Vue.use(Vuetify)

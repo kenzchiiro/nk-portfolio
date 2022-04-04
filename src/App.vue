@@ -1,17 +1,20 @@
 <template>
+
   <div id="app">
-        <Intro />
+    <NavBar v-on:toggle-drawer="toggleDrawer"/>
+    <Intro />
     <v-container>
+      <div class="d-md-none-and-down d-md-flex">
+        <Social />
+      </div>
       <div class="content">
         <Skills />
         <Work />
-        <!-- <Education /> -->
         <Projects />
         <Certifications />
-      </div> 
-    </v-container> 
-          <Footer />
-
+      </div>
+    </v-container>
+    <Footer />
   </div>
 </template>
 
@@ -21,11 +24,15 @@ import Skills from "./views/Skills.vue";
 import Work from "./views/Work.vue";
 import Projects from "./views/Projects.vue";
 import Certifications from "./views/Certifications.vue";
-import Footer from './views/Footer.vue';
-
+import Footer from "./views/Footer.vue";
+import Social from "./views/Social.vue";
+import NavBar from "./components/NavBar.vue";
 
 export default {
   name: "App",
+  data() {
+    return {};
+  },
   components: {
     Intro,
     Skills,
@@ -33,6 +40,17 @@ export default {
     Projects,
     Certifications,
     Footer,
+    Social,
+    NavBar,
+  },
+  methods: {
+      toggleDrawer(e) {
+        this.drawer = e;
+        this.$emit('toggle-drawer', true)
+      },
+    onScroll(e) {
+      this.is_transparent = !(e.target.scrollTop > 0);
+    },
   },
 };
 </script>
@@ -44,13 +62,17 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  display: 'flex';
+  height: '100%';
+  overflow: 'hidden';
+  width: '100%';
   /* overflow-x: hidden;  */
 }
 h2 {
   font-weight: 900;
 }
 
-b-container{
-    padding: 1rem 0rem 0rem 0rem;
-} 
+b-container {
+  padding: 1rem 0rem 0rem 0rem;
+}
 </style>
