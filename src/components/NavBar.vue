@@ -33,16 +33,18 @@
         <br/>
           <b-avatar
             :src="profile"
+            size="100"
             variant="light"
+            class="p-2"
           ></b-avatar>
-          <v-list-item-title>Nattawut Khuadplod</v-list-item-title>
+          <v-list-item-title>NATAWUT KHUADPLOD</v-list-item-title>
       </v-list-item-group>
       <v-divider/>
     <!-- list section -->
     <v-list dense>
     <v-list-item v-for="(item, index) in items" :key="item">
       <v-btn plain class="navbar-btn-list"  v-on:click="scrollToSection(index)" >
-      {{ item }}
+       {{ item }}
       </v-btn>
     </v-list-item>
     </v-list>
@@ -189,13 +191,13 @@ export default {
 
 <style>
 .navbar-btn {
-  color: #2c3e50 !important;
+  color:#000 !important;
 }
 
 .navbar-btn-list {
-  color: #2c3e50 !important;
+  color: #191b1e !important;
   width: 100%;
-  justify-content: start !important;;
+  justify-content: start !important;
 }
 
 .transparent-body {
@@ -205,6 +207,7 @@ export default {
 
 .menu{
   left: -1.8rem !important;
+  color:#191b1e !important;
 }
 
 .change_color {

@@ -41,7 +41,7 @@ export default {
 
 .icon{
 font-size: 1rem;
-color: #2c3e50;
+color: #191b1e;
 margin: 0.5em;
 }
 
