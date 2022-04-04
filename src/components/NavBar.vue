@@ -190,7 +190,7 @@ export default {
 
 <style>
 .navbar-btn {
-  color:#000 !important;
+  color:#191b1e !important;
 }
 
 .navbar-btn-list {
