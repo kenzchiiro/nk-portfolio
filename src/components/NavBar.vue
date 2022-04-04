@@ -10,7 +10,6 @@
     <v-btn plain class="navbar-btn" v-for="(item, index) in items" :key="item" v-on:click="scrollToSection(index)" >
      {{ item }}
     </v-btn>
-    <!-- <v-app-bar-nav-icon></v-app-bar-nav-icon> -->
     <v-spacer></v-spacer>
     <!-- <v-btn small outlined class="navbar-btn"> RESUME </v-btn> -->
   </v-toolbar>

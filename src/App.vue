@@ -69,7 +69,7 @@ export default {
   /* overflow-x: hidden;  */
 }
 h2 {
-  font-weight: 900;
+  font-weight: 910;
 }
 
 b-container {
