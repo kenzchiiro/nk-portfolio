@@ -13,7 +13,10 @@
             </v-col>
             <v-col cols="7">
             <v-list-item-content>
-            <div class="title"><p><bold v-for="(line,l) in event.topic" :key="l">{{line}}</bold></p></div>
+            <div class="title">
+                <p><bold v-for="(line,l) in event.topic" :key="l">{{line}}</bold>   <v-icon style="float:right; margin-right: 0.5rem; color:#768390;">mdi-file-certificate-outline</v-icon>   
+</p>
+            </div>
             <v-list-item-title class="level">{{event.level}}</v-list-item-title>
             <a class="code" v-bind:href="event.link">{{event.id}}</a>
             </v-list-item-content>

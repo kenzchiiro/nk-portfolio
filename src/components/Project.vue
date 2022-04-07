@@ -12,7 +12,10 @@
             </v-col>
             <v-col cols="2">
               <div v-if="event.link != ''">
-              <a :href=event.link>
+                
+                <!-- <v-icon v-bind:href=event.link>mdi-open-in-new</v-icon> -->
+              <a :href=event.link target="_blank" 
+              >
                 <i class="fas fa-external-link-alt" style="font-size:20px; color:#768390; float:right;"></i>
               </a>
               </div>
