@@ -7,7 +7,8 @@
     >
     
   <v-toolbar absolute flat class="d-none d-md-block transparent-body" width="100%">
-    <v-btn plain class="navbar-btn" v-for="(item, index) in items" :key="item" v-on:click="scrollToSection(index)" >
+    <v-btn 
+      plain class="navbar-btn" v-for="(item, index) in items" :key="item" v-on:click="scrollToSection(index)" >
      {{ item }}
     </v-btn>
     <v-spacer></v-spacer>
@@ -189,6 +190,22 @@ export default {
 
 
 <style>
+
+
+
+
+.v-btn__content
+{
+    opacity:  1 !important;
+}
+
+.v-btn__content:hover
+{
+    opacity:  0.60 !important;
+}
+
+
+
 .navbar-btn {
   color:#191b1e !important;
 }

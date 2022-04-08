@@ -116,6 +116,10 @@ export default {
   max-height: 1.3rem !important;
 }
 
+.tag :hover{
+  transform: scale(1.2);
+}
+
 .icon {
   font-size: 1rem;
   color: #2c3e50;

@@ -46,7 +46,7 @@ margin: 0.5em;
 }
 
 .title > h1{ 
-  color: #2c3e50;
+  color: #191b1e;
   font-weight: 500;
 }
 .sections-menu {
@@ -65,6 +65,13 @@ margin: 0.5em;
   opacity: .8;
   transition: .4s ease all;
   cursor: pointer;
+}
+
+.sections-menu .menu-point :hover{
+  opacity: .60;
+  color: #191b1e;
+    transform: scale(1.2);
+
 }
 
 .sections-menu .menu-point.active {
