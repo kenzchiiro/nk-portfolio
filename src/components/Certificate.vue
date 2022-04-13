@@ -17,7 +17,7 @@
                 <p><bold v-for="(line,l) in event.topic" :key="l">{{line}}</bold>   <v-icon style="float:right; margin-right: 0.5rem; color:var(--v-info-base);">mdi-file-certificate-outline</v-icon></p>
             </div>
             <v-list-item-title class="level">{{event.level}}</v-list-item-title>
-            <a class="code" v-bind:href="event.link">{{event.id}}</a>
+            <a class="code" v-bind:href="event.link">{{event.id}} </a>
             </v-list-item-content>
             </v-col>
         </v-row>
