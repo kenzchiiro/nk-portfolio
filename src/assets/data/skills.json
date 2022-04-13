@@ -1,78 +1,118 @@
 {
   "skills": [
     {
-      "col":6,
+      "col": 6,
       "topic": "Main Experience",
       "icon": "",
       "skill": [
         {
-        "title":"Front-end",
-        "list":["- Vue , React"]
+          "title": "Front-end",
+          "list": [
+            "- Vue , React"
+          ]
         },
         {
-          "title":"Back-end",
-          "list":["- Go , NodeJs"]
+          "title": "Back-end",
+          "list": [
+            "- Go , NodeJs"
+          ]
         },
         {
-          "title":"Data Engineer",
-          "list":["- IBM DataStage, ETL process, SQL"]
+          "title": "Data Engineer",
+          "list": [
+            "- IBM DataStage, ETL process, SQL"
+          ]
         }
-    ]
+      ]
     },
     {
-      "col":6,
+      "col": 6,
       "topic": "Some Experience",
       "icon": "",
       "skill": [
         {
-        "title":"",
-        "list":[" - Game development"]
+          "title": "",
+          "list": [
+            " - Game development"
+          ]
         },
         {
-        "title":"",
-        "list":[" - UI UX and Graphic design"]
+          "title": "",
+          "list": [
+            " - UI UX and Graphic design"
+          ]
         },
         {
-          "title":"",
-          "list":[" - Machine learning"]
+          "title": "",
+          "list": [
+            " - Machine learning"
+          ]
         },
         {
-          "title":"",
-          "list":[" - Blockchain technology"]
+          "title": "",
+          "list": [
+            " - Blockchain technology"
+          ]
         },
         {
-          "title":"",
-          "list":[" - Agile, CI/CD"]
+          "title": "",
+          "list": [
+            " - Agile, CI/CD"
+          ]
         }
-    ]
+      ]
     },
     {
-      "col":12,
+      "col": 12,
       "topic": "Education",
       "icon": "",
       "skill": [
         {
-        "year":"2016 - 2019",
-        "title":"King Mongkut's University of Technology Thonburi",
-        "list":["Bachelor of Engineering Program in Computer Engineering"]
+          "year": "2016 - 2019",
+          "title": "King Mongkut's University of Technology Thonburi",
+          "list": [
+            "Bachelor of Engineering Program in Computer Engineering"
+          ]
         },
         {
-          "year":"2013 - 2015",
-          "title":"Papayom pittayakom school",
-          "list":["Science Classroom in University-Affiliated School Project (SCiUS) - TSU"]
+          "year": "2013 - 2015",
+          "title": "Papayom pittayakom school",
+          "list": [
+            "Science Classroom in University-Affiliated School Project (SCiUS) - TSU"
+          ]
         }
-    ]
+      ]
     },
     {
-      "col":12,
+      "col": 12,
       "topic": "Interests",
       "icon": "",
       "skill": [
         {
-        "title":"",
-        "list":["Photography , Technology , Cryptocurrency and NFT , Manga"]
+          "title": "",
+          "list": [
+            "- Photography"
+          ]
+        },
+        {
+          "title": "",
+          "list": [
+            "- Technology"
+          ]
+        },
+        {
+          "title": "",
+          "list": [
+            "- Cryptocurrency / NFT"
+          ]
+        },
+        {
+          "title": "",
+          "list": [
+            "- Drawing / Graphic Design"
+          ]
         }
-    ]
+      ]
     }
   ]
 }
