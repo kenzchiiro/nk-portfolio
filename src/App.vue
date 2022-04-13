@@ -3,8 +3,8 @@
   <div id="app">
     <NavBar v-on:toggle-drawer="toggleDrawer"/>
     <Intro />
-    <v-container>
-      <div class="d-md-none-and-down d-md-flex">
+    <v-container class="body">
+      <div class="d-md-none-and-down d-md-flex ">
         <Social />
       </div>
       <div class="content">
@@ -61,7 +61,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: var(--v-neutral-base) !important;;
+  background-color: var(--v-base-base) !important;
   display: 'flex';
   height: '100%';
   overflow: 'hidden';
@@ -72,6 +73,9 @@ h2 {
   font-weight: 910;
 }
 
+p {
+    color: var(--v-title-base) !important;;
+}
 b-container {
   padding: 1rem 0rem 0rem 0rem;
 }

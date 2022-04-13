@@ -7,16 +7,15 @@
             <v-list-item-content>
             <v-col cols="10">
               <a :href=event.git>
-                <i v-b-tooltip.hover :title=event.tooltip class="far fa-folder" style="font-size:40px; color:#768390;"></i>
+                <i v-b-tooltip.hover :title=event.tooltip class="far fa-folder" style="font-size:40px; color:var(--v-info-base)"></i>
               </a>
             </v-col>
             <v-col cols="2">
               <div v-if="event.link != ''">
-                
                 <!-- <v-icon v-bind:href=event.link>mdi-open-in-new</v-icon> -->
               <a :href=event.link target="_blank" 
               >
-                <i class="fas fa-external-link-alt" style="font-size:20px; color:#768390; float:right;"></i>
+                <i class="fas fa-external-link-alt" style="font-size:20px; color:var(--v-info-base); float:right;"></i>
               </a>
               </div>
             </v-col>
@@ -24,11 +23,11 @@
         </v-row>
         </v-list-item>
         <v-card-text>
-            <div>{{event.time}}</div>
+            <p class="info" style="margin:0px;">{{event.time}}</p>
             <v-list-item-content class="content-text">
-            <div><p><bold v-for="(line,l) in event.topic" :key="l">{{line}}</bold></p> </div>
-            <v-list-item-title>{{event.detail}}</v-list-item-title>
-            <p class ="line"><span v-for="(line,l) in event.text" :key="l">{{line}}<br></span></p>
+            <div><h6><bold v-for="(line,l) in event.topic" :key="l">{{line}}</bold></h6> </div>
+            <v-list-item-title class ="sub-title">{{event.detail}}</v-list-item-title>
+            <p class ="info"><span v-for="(line,l) in event.text" :key="l">{{line}}<br></span></p>
             </v-list-item-content>
          </v-card-text>
       <v-card-actions>

@@ -30,6 +30,7 @@ export default {
 margin-left: 2rem;
 padding: 0.25rem;
 font-weight: 900 !important;
+color: var(--v-title-base);
 }
 
 .content{

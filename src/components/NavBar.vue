@@ -12,19 +12,38 @@
      {{ item }}
     </v-btn>
     <v-spacer></v-spacer>
+        <v-btn
+          icon id="mode-switcher"
+          @click="$vuetify.theme.dark = !$vuetify.theme.dark"
+        >
+          <v-icon class="switch-theme">
+            {{ ($vuetify.theme.dark) ? 'mdi-weather-night' : 'mdi-weather-sunny' }}
+          </v-icon>
+        </v-btn>
     <!-- <v-btn small outlined class="navbar-btn"> RESUME </v-btn> -->
   </v-toolbar>
 
     <v-toolbar absolute flat class="d-md-none transparent-body" width="100%">
     <v-app-bar-nav-icon class="menu" id="drawer" @click="setDrawer(true)" ></v-app-bar-nav-icon>
+    
     <v-spacer></v-spacer>
+            <v-btn
+          icon id="mode-switcher"
+          @click="$vuetify.theme.dark = !$vuetify.theme.dark"
+        >
+          <v-icon class="switch-theme">
+            {{ ($vuetify.theme.dark) ? 'mdi-weather-night' : 'mdi-weather-sunny' }}
+          </v-icon>
+        </v-btn>
     <!-- <v-btn small outlined class="navbar-btn"> RESUME </v-btn> -->
+        
+
   </v-toolbar>
    </v-app-bar>
 <v-navigation-drawer
       v-model="drawer"
       fixed
-      
+      class="drawer"
     >
     <!-- group
     name and profile  -->
@@ -35,9 +54,9 @@
             :src="profile"
             size="100"
             variant="light"
-            class="p-2"
+            class="p-1"
           ></b-avatar>
-          <v-list-item-title>NATAWUT KHUADPLOD</v-list-item-title>
+          <v-list-item-title class="drawer">NATAWUT KHUADPLOD</v-list-item-title>
       </v-list-item-group>
       <v-divider/>
     <!-- list section -->
@@ -207,11 +226,12 @@ export default {
 
 
 .navbar-btn {
-  color:#191b1e !important;
+  color:var(--v-title-base) !important;
 }
 
 .navbar-btn-list {
-  color: #191b1e !important;
+  background-color: var(--v-base-base) !important;
+  color: var(--v-title-base) !important;
   width: 100%;
   justify-content: start !important;
 }
@@ -221,13 +241,26 @@ export default {
   background-color: transparent !important ;
 }
 
+.p-1{
+margin: 0.8rem !important;
+}
+
+
+.drawer {
+   color:var(--v-title-base) !important;
+   background-color: var(--v-base-base) !important;
+}
+
+.switch-theme {
+  color: var(--v-title-base) !important;
+}
 .menu{
   left: -1.8rem !important;
-  color:#191b1e !important;
+  color:var(--v-title-base) !important;
 }
 
 .change_color {
-  background-color:white !important;
+  background-color:var(--v-base-base) !important;
 }
 
 .nav-bar{

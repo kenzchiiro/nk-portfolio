@@ -1,21 +1,20 @@
 <template>
     <v-row dense>
-    <v-col sm="12" md="3" lg="3" cols="12" :class="'layer-' + layerClass" v-for="(event, e) in data" :key="e">
+    <v-col xs="12" sm="6" md="4" lg="3" cols="12" :class="'layer-' + layerClass" v-for="(event, e) in data" :key="e">
       <v-card data-aos="fade-up" :data-aos-duration="(e+2)*200"  class="inline" min-width="150" outlined>
         <v-row dense>
-            <v-col cols="5">
+            <v-col xs="1" sm="5" md="5" lg="5" xl="5" cols="4">
             <v-img
                 style="border-top-left-radius: 3%; border-bottom-left-radius: 3%;"
-                height="100"
+                height="100%"
                 width="100"
                 :src="pathLogo(event.icon)"
             ></v-img>
             </v-col>
-            <v-col cols="7">
+            <v-col xs="11" sm="7" md="7" lg="7" xl="7" >
             <v-list-item-content>
             <div class="title">
-                <p><bold v-for="(line,l) in event.topic" :key="l">{{line}}</bold>   <v-icon style="float:right; margin-right: 0.5rem; color:#768390;">mdi-file-certificate-outline</v-icon>   
-</p>
+                <p><bold v-for="(line,l) in event.topic" :key="l">{{line}}</bold>   <v-icon style="float:right; margin-right: 0.5rem; color:var(--v-info-base);">mdi-file-certificate-outline</v-icon></p>
             </div>
             <v-list-item-title class="level">{{event.level}}</v-list-item-title>
             <a class="code" v-bind:href="event.link">{{event.id}}</a>

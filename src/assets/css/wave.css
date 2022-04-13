@@ -20,8 +20,9 @@ p {
 .header {
   position:relative;
   text-align:center;
-  background: linear-gradient(60deg, rgb(84,180, 255)0%, rgb(0, 255, 204) 100%);
-  color:white;
+  /* background: linear-gradient(60deg, rgb(84,180, 255)0%, rgb(0, 255, 204) 100%); */
+  background: linear-gradient(60deg,var(--v-primary-base) 0%, var(--v-secondary-base)  100%);
+  color:var(--v-base-base);
 }
 
 
@@ -62,7 +63,7 @@ p {
   position:relative;
   height:100%;
   text-align:center;
-  background-color: white;
+  background-color: var(--v-base-base) !important;
 }
 
 /* Animation */
@@ -99,6 +100,7 @@ p {
   text-align: left;
   padding: 3rem 0rem 0rem 0rem;
   height: 100%;
+  background-color: var(--v-base-base) !important;
 }
 
 @media (max-width: 1024px) {

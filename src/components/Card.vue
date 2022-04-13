@@ -1,12 +1,12 @@
 <template>
     <v-row dense>
     <v-col sm="12" md="6" cols="12" :class="'layer-' + layerClass " v-for="(event, e) in data" :key="e">
-      <v-card data-aos="fade-up" :data-aos-duration="(e+2)*200"  class="custom" min-height="110"  min-width="200" outlined>
+      <v-card  data-aos="fade-up" :data-aos-duration="(e+2)*200"  class="custom" min-height="110"  min-width="200" outlined>
         <v-list-item one-line>
-          <v-list-item-content>
+          <v-list-item-content  >
             <div class="head"><p><bold v-for="(line,l) in event.text" :key="l">{{line}}</bold></p> </div>
             <v-list-item-title class="headline mb-1">{{event.topic}}</v-list-item-title>
-            <v-list-item-subtitle>{{event.time}}</v-list-item-subtitle>
+            <v-list-item-subtitle class="info">{{event.time}}</v-list-item-subtitle>
           </v-list-item-content>
           <v-list-item-avatar tile size="85" :src="pathLogo(event.logo)"><v-img :src="pathLogo(event.logo)"></v-img></v-list-item-avatar>
         </v-list-item>
@@ -35,7 +35,5 @@ export default {
 
 <style scope>
 @import "../assets/css/card.css";
-
-
 </style>
 

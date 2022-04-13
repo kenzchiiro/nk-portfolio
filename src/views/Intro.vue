@@ -25,7 +25,7 @@
         </v-row>
         <v-row>
           <v-col>
-            <p>A SOFTWARE CONSULTANT<br />IN LOVE WITH CODING AND DESIGN</p>
+            <p class="sub-title">A SOFTWARE CONSULTANT<br />IN LOVE WITH CODING AND DESIGN</p>
           </v-col>
         </v-row>
         <v-row>
@@ -67,21 +67,21 @@
             xlink:href="#gentle-wave"
             x="48"
             y="0"
-            fill="rgba(255,255,255,0.7"
+            :fill="($vuetify.theme.dark) ? $vuetify.theme.themes.dark.base_70 : $vuetify.theme.themes.light.base_70"
           />
           <use
             xlink:href="#gentle-wave"
             x="48"
             y="3"
-            fill="rgba(255,255,255,0.5)"
+            :fill="($vuetify.theme.dark) ? $vuetify.theme.themes.dark.base_50 : $vuetify.theme.themes.light.base_50"
           />
           <use
             xlink:href="#gentle-wave"
             x="48"
             y="5"
-            fill="rgba(255,255,255,0.3)"
+            :fill="($vuetify.theme.dark) ? $vuetify.theme.themes.dark.base_30 : $vuetify.theme.themes.light.base_30"
           />
-          <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+          <use xlink:href="#gentle-wave" x="48" y="7" :fill="($vuetify.theme.dark) ? $vuetify.theme.themes.dark.base : $vuetify.theme.themes.light.base" />
         </g>
       </svg>
     </div>
@@ -122,19 +122,25 @@ export default {
 
 .icon {
   font-size: 1rem;
-  color: #2c3e50;
+  color: var(--v-title-base);
   margin: 0.5em;
 }
 
 .typed-element {
   justify-content: center !important;
-  color: #2c3e50;
+  color: var(--v-title-base);
   font-weight: inherit;
 }
 
 .title > h1 {
-  color: #2c3e50;
+  color: var(--v-title-base)!important;
   font-weight: 500;
   font-size: 2rem;
+}
+
+.sub-title {
+  font-size: 0.8rem !important;
+  color: var(--v-title-base)!important;
+  font-weight: 500;
 }
 </style>

@@ -10,6 +10,13 @@
 
 .content-text {
   min-height: 8rem;
+  color: var(--v-title-base);
+}
+
+
+.line{
+  font-size: 0.8rem;
+  color: var(--v-info-base) !important;
 }
 
 .tag{
@@ -17,9 +24,57 @@
   margin: 0.3rem;
   font-size: auto !important;
   font-weight: 900 !important;
-  color: #000;
+  color: var(--v-neutral-base) !important;
   background: white !important;
   max-height: 25px !important; 
   align-items: center !important;
+  
 }
+
+.code{
+  color: var(--v-info-base) !important;
+}
+
+.card{
+  background-color: var(--v-base-base) !important;
+}
+
+
+.v-card {
+  background-color: var(--v-base-base) !important;
+  color: var(--v-title-base) !important;
+}
+
+.head {
+  color: var(--v-title-base) !important;
+}
+
+.headline {
+  color: var(--v-title-base) !important;
+}
+
+.info {
+  font-size: 0.7rem;
+  color: var(--v-info-base) !important;
+}
+
+
+.v-list-item__subtitle {
+  font-size: 0.5rem;
+  color: var(--v-body-base) !important;
+}
+
+.v-sheet--outlined{
+  border-color: var(--v-accent-base) !important;
+}
+
+.v-chip--outlined{
+  color: var(--v-title-base) !important;
+  border-color: var(--v-accent-base) !important;
+}
+
+.v-chip__content{
+font-size: 0.6rem;
+}
+
 

@@ -29,6 +29,7 @@ export default {
 .topic{
 margin-left: 2rem;
 padding: 0.25rem;
+color: var(--v-title-base);
 }
 
 .content{
