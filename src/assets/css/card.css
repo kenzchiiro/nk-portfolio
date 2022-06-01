@@ -77,4 +77,21 @@
 font-size: 0.6rem;
 }
 
+.certificate-icon{
+  display: flex !important;
+  border-top-left-radius: 3%; 
+  border-bottom-left-radius: 3%;
+}
 
+.certificate-title{
+  font-size: medium !important;
+  font-weight: 900 !important;
+  line-height: 1!important;
+  vertical-align: middle;
+}
+
+.certificate-subtitle{
+  font-size: small !important;
+  line-height: 1!important;
+  vertical-align: middle;
+}

@@ -1,8 +1,32 @@
 {
     "certifications": [
       {
+        "time": "2022",
+        "icon": "assets/organization/coursera.svg",
+        "topic": " Foundations of User Experience (UX) Design",
+        "level": "Basic",
+        "id": "  ID: 275VCCVJG943 ",
+        "link": "https://coursera.org/share/96031b43221d11090bfe6fae31254770"
+      },
+      {
+        "time": "2022",
+        "icon": "assets/organization/google-analytics.svg",
+        "topic": " Advanced Google Analytics",
+        "level": "Advanced",
+        "id": "  ID: MHWc03gDS6-y0N8ahQ-B7A ",
+        "link": "https://analytics.google.com/analytics/academy/certificate/MHWc03gDS6-y0N8ahQ-B7A"
+      },
+      {
+        "time": "2022",
+        "icon": "assets/organization/google-analytics.svg",
+        "topic": " Google Analytics for Beginners",
+        "level": "Basic",
+        "id": "  ID: PYSL8uXsSpmq4RyDfSBcIA ",
+        "link": "https://analytics.google.com/analytics/academy/certificate/PYSL8uXsSpmq4RyDfSBcIA"
+      },
+      {
         "time": "2021",
-        "icon": "assets/HackerRank.png",
+        "icon": "assets/organization/hackerrank.png",
         "topic": " Go   ",
         "level": "Basic",
         "id": "  ID: 641EE48F3841 ",
@@ -10,7 +34,7 @@
       },
       {
         "time": "2021",
-        "icon": "assets/HackerRank.png",
+        "icon": "assets/organization/hackerrank.png",
         "topic": " SQL   ",
         "level": "Intermediate",
         "id": "  ID: 73D8A19F4271 ",
@@ -18,7 +42,7 @@
       },
       {
         "time": "2021",
-        "icon": "assets/HackerRank.png",
+        "icon": "assets/organization/hackerrank.png",
         "topic": " SQL   ",
         "level": "Basic",
         "id": "  ID: 08184AEF8E8B ",
@@ -26,7 +50,7 @@
       },
       {
         "time": "2021",
-        "icon": "assets/HackerRank.png",
+        "icon": "assets/organization/hackerrank.png",
         "topic": " Node   ",
         "level": "Basic",
         "id": "  ID: 9AA4A39B362F ",
@@ -34,7 +58,7 @@
       },
       {
         "time": "2021",
-        "icon": "assets/HackerRank.png",
+        "icon": "assets/organization/hackerrank.png",
         "topic": " REST API   ",
         "level": "Intermediate",
         "id": "  ID: 0B347686E65A ",
@@ -42,7 +66,7 @@
       },
       {
         "time": "2021",
-        "icon": "assets/HackerRank.png",
+        "icon": "assets/organization/hackerrank.png",
         "topic": " Python",
         "level": "Basic",
         "id": "  ID: 58E024A7C9DB ",
@@ -50,7 +74,7 @@
       },
       {
         "time": "2021",
-        "icon": "assets/HackerRank.png",
+        "icon": "assets/organization/hackerrank.png",
         "topic": " Java",
         "level": "Basic",
         "id": " ID: 0B347686E65A",
@@ -58,7 +82,7 @@
       },
       {
         "time": "2021",
-        "icon": "assets/HackerRank.png",
+        "icon": "assets/organization/hackerrank.png",
         "topic": " JavaScript",
         "level": "Basic",
         "id": "  ID: D32AF385583A",
