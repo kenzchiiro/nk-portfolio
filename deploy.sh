@@ -17,7 +17,7 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
-git push -f https://github.com/kenzch1r0/kenzch1r0.github.io main
+git push -f https://github.com/kenzchiiro/kenzchiiro.github.io main
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
@@ -25,6 +25,6 @@ git push -f https://github.com/kenzch1r0/kenzch1r0.github.io main
 cd .. 
 git add -A
 git commit -m 'update code'
-#git push -f https://github.com/kenzch1r0/NKportfolio main
+#git push -f https://github.com/kenzchiiro/NKportfolio main
 git push 
 cd -
