@@ -17,7 +17,7 @@
         <a class="icon-footer" href="https://www.facebook.com/KenzChiro/"
           ><i class="fab fa-facebook-square"></i
         ></a>
-        <a class="icon-footer" href="https://github.com/kenzch1r0"
+        <a class="icon-footer" href="https://github.com/kenzchiiro"
           ><i class="fab fa-github-square"></i
         ></a>
       </v-col>
