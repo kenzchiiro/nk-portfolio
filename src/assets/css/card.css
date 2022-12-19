@@ -92,6 +92,6 @@ font-size: 0.6rem;
 
 .certificate-subtitle{
   font-size: small !important;
-  line-height: 1!important;
-  vertical-align: middle;
+  line-height: 1.5!important;
+  vertical-align: bottom;
 }
