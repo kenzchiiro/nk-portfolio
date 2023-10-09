@@ -7,7 +7,8 @@
             <div class="headskill"><p><bold>{{event.topic}}</bold></p> </div>
             <v-list-item-title class="headline mb-1" v-for="(sk,s) in event.skill" :key="s">{{sk.title}}
                 <v-list-item-subtitle class="headline mb-1" v-for="(v,k) in sk.list" :key="k">{{v}}</v-list-item-subtitle>
-                 <v-list-item-subtitle class="headline mb-1" >{{sk.year}}</v-list-item-subtitle>
+              <v-list-item-subtitle class="headline mb-1" >{{sk.year}}</v-list-item-subtitle>
+              <div style="margin: 2px; display:inline-block" v-for="(v,k) in sk.src" :key="k"><v-img style="border-radius: 4px;"  :src="v" ></v-img></div>
             </v-list-item-title>
           </v-list-item-content>
           <!-- <v-list-item-avatar tile size="85" :src="pathLogo(event.icon)"><v-img :src="pathLogo(event.icon)"></v-img></v-list-item-avatar> -->

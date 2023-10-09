@@ -2,8 +2,14 @@
   <section class="content">
 			<div class="topic" data-aos="fade-right">
         <h2>ABOUT ME</h2>
-      </div>
       <div class="spacing">
+        <p> Descripe me with Top 5 CliftonStrengths </p>
+        <v-row>
+          <b-col>
+          <p> Learner | Individualization | Relator | Achiever | Intellection</p>
+          </b-col>
+        </v-row>
+      </div>
           <skill  title="SKILLS" :data="skills" ref="Skill"></skill>
       </div>
   </section>

@@ -1,7 +1,15 @@
 {
   "work": [
     {
-      "time": "June 2021 - PRESENT",
+      "time": "Otc 2023 - PRESENT",
+      "icon": "briefcase-fill",
+      "logo": "assets/ascend.svg",
+      "topic": "Software Engineer",
+      "detail": "Work as part of a team developing applications and services",
+      "text": ["Ascend Group"]
+    },
+    {
+      "time": "June 2021 - Sep 2023",
       "icon": "briefcase-fill",
       "logo": "assets/iam.svg",
       "topic": "Software Consultant",
